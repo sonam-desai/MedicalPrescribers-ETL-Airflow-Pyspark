@@ -180,7 +180,7 @@ with DAG('prescriber_ingestion_pipeline',
 
     spark_operation_task = BashOperator(
         task_id ='run_spark_etl_job',
-        bash_command='python /opt/airflow/scripts/spark_etl.py',
+        bash_command='python /opt/airflow/scripts/pyspark_etl.py',
 
     )
 
