@@ -84,11 +84,13 @@ This is my proposed data model prior to data cleaning and transformation to help
 ### Querying report tables
 
 **city_report**
-![](https://sonam-desai.github.io/MedicalPrescribers-ETL-Airflow-Pyspark/images/db2.png)
+![db2](https://github.com/user-attachments/assets/c2399e5d-9f65-4449-a924-cacc7651305d)
+
 
 
 **prescriber_report**
-![](https://sonam-desai.github.io/MedicalPrescribers-ETL-Airflow-Pyspark/images/db3.png)
+![db3](https://github.com/user-attachments/assets/78590770-b08c-4fa9-b1c8-0a629694065a)
+
 
 
 
