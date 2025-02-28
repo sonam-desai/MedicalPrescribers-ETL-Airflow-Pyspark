@@ -4,7 +4,7 @@
 The dataset for this project contains the information about US Medical prescribers, their cities, years of experience, the cost for each prescribed medicine etc. The data that houses these information came in two format having a relation.The `city dimensions` table in parquet format and the `fact` table that comes in csv format containing the prescribers' information. The goal is to load these data using the spec format into spark and utilizing spark rdd to process and transform by extracting insight off this large dataset about 4GB in size.
 
 ### Architecture - Prescriber pipeline
-![](https://sonam-desai.github.io/MedicalPrescribers-ETL-Airflow-Pyspark/images/spark-architecture.png)
+![](https://github.com/sonam-desai/MedicalPrescribers-ETL-Airflow-Pyspark/tree/7fc2a2c7f284233013d51c076481192a91bbc6ea/images/spark-architecture.png)
 
 ### Technologies and Functions
   - `Pyspark`: Data preprocessing, cleaning & transformation
