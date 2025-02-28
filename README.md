@@ -14,7 +14,7 @@ The dataset for this project contains the information about US Medical prescribe
   - `Postgres`: DWH on premise
   - `Docker`: Containerization 
   - `Apache Airflow`: Orchestration tool and for running Cron jobs
-  - `Apache Superset`: BI dashboard
+
 
 ### Project structure
         
