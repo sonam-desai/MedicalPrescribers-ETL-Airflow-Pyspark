@@ -51,9 +51,7 @@ The dataset for this project contains the information about US Medical prescribe
         │   ├── spark_etl.py
         │   └── validate.py
         ├── staging
-        └── superset
-            ├── city_report_dashboard.gif
-            └── prescriber_report_dashboard.gif
+
 
 ### ERD
 This is my proposed data model prior to data cleaning and transformation to help understand the structure of the data. Also note that some of the fields are not in the right datatypes the ERD is to help figure out how to map and cast each fields to suit our requirement purposes.
