@@ -4,7 +4,7 @@
 The dataset for this project contains the information about US Medical prescribers, their cities, years of experience, the cost for each prescribed medicine etc. The data that houses these information came in two format having a relation.The `city dimensions` table in parquet format and the `fact` table that comes in csv format containing the prescribers' information. The goal is to load these data using the spec format into spark and utilizing spark rdd to process and transform by extracting insight off this large dataset about 4GB in size.
 
 ### Architecture - Prescriber pipeline
-![](https://judeleonard.github.io/Prescriber-ETL-data-pipeline/images/spark-architecture.jpeg)
+![](https://sonam-desai.github.io/MedicalPrescribers-ETL-Airflow-Pyspark/images/spark-architecture.png)
 
 ### Technologies and Functions
   - `Pyspark`: Data preprocessing, cleaning & transformation
@@ -58,7 +58,7 @@ The dataset for this project contains the information about US Medical prescribe
 ### ERD
 This is my proposed data model prior to data cleaning and transformation to help understand the structure of the data. Also note that some of the fields are not in the right datatypes the ERD is to help figure out how to map and cast each fields to suit our requirement purposes.
 
-![](https://judeleonard.github.io/Prescriber-ETL-data-pipeline/images/ERD.png)
+![](https://sonam-desai.github.io/MedicalPrescribers-ETL-Airflow-Pyspark/images/ERD.png)
 
 ### Spark ETL components/job
   - `City transformation / report`: 
@@ -76,25 +76,24 @@ This is my proposed data model prior to data cleaning and transformation to help
       
 ### Pipeline runtime status -> executed successfully
 **pipeline is scheduled to run on weekly basis**
-![](https://judeleonard.github.io/Prescriber-ETL-data-pipeline/images/pipeline_status.png)
+![](https://sonam-desai.github.io/MedicalPrescribers-ETL-Airflow-Pyspark/images/pipeline_status.png)
 
   
 ### Tables in postgres
-![](https://judeleonard.github.io/Prescriber-ETL-data-pipeline/images/db1.png)
+![](https://sonam-desai.github.io/MedicalPrescribers-ETL-Airflow-Pyspark/images/db1.png)
+
 
 ### Querying report tables
 
 **city_report**
-![](https://judeleonard.github.io/Prescriber-ETL-data-pipeline/images/db2.png)
+![](https://sonam-desai.github.io/MedicalPrescribers-ETL-Airflow-Pyspark/images/db2.png)
+
 
 **prescriber_report**
-![](https://judeleonard.github.io/Prescriber-ETL-data-pipeline/images/db3.png)
+![](https://sonam-desai.github.io/MedicalPrescribers-ETL-Airflow-Pyspark/images/db3.png)
 
-### Visualizing city report dashboard in Apache superset
-![](https://judeleonard.github.io/Prescriber-ETL-data-pipeline/superset/city_report_dashboard.gif)
 
-### Visualizing prescribers report in Apache superset
-![](https://judeleonard.github.io/Prescriber-ETL-data-pipeline/superset/prescriber_report_dashboard.gif)
+
 
 
 
