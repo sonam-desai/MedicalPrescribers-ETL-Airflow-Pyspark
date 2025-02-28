@@ -4,7 +4,7 @@
 The dataset for this project contains the information about US Medical prescribers, their cities, years of experience, the cost for each prescribed medicine etc. The data that houses these information came in two format having a relation.The `city dimensions` table in parquet format and the `fact` table that comes in csv format containing the prescribers' information. The goal is to load these data using the spec format into spark and utilizing spark rdd to process and transform by extracting insight off this large dataset about 4GB in size.
 
 ### Architecture - Prescriber pipeline
-![](https://github.com/sonam-desai/MedicalPrescribers-ETL-Airflow-Pyspark/tree/7fc2a2c7f284233013d51c076481192a91bbc6ea/images/spark-architecture.png)
+![spark-architecture](https://github.com/user-attachments/assets/41e6c7a4-46ed-47ee-b8ab-e90a1ade5d22)
 
 ### Technologies and Functions
   - `Pyspark`: Data preprocessing, cleaning & transformation
@@ -58,7 +58,7 @@ The dataset for this project contains the information about US Medical prescribe
 ### ERD
 This is my proposed data model prior to data cleaning and transformation to help understand the structure of the data. Also note that some of the fields are not in the right datatypes the ERD is to help figure out how to map and cast each fields to suit our requirement purposes.
 
-![](https://sonam-desai.github.io/MedicalPrescribers-ETL-Airflow-Pyspark/images/ERD.png)
+![ERD](https://github.com/user-attachments/assets/a1e9dcc9-4906-49da-bfd5-19b34cbc7464)
 
 ### Spark ETL components/job
   - `City transformation / report`: 
@@ -76,12 +76,10 @@ This is my proposed data model prior to data cleaning and transformation to help
       
 ### Pipeline runtime status -> executed successfully
 **pipeline is scheduled to run on weekly basis**
-![](https://sonam-desai.github.io/MedicalPrescribers-ETL-Airflow-Pyspark/images/pipeline_status.png)
+![pipeline_status](https://github.com/user-attachments/assets/20ee3139-8c93-44eb-867f-17d1e0972e2d)
 
-  
 ### Tables in postgres
-![](https://sonam-desai.github.io/MedicalPrescribers-ETL-Airflow-Pyspark/images/db1.png)
-
+![db1](https://github.com/user-attachments/assets/5ca16325-ee19-41dd-95d1-614920c06037)
 
 ### Querying report tables
 
